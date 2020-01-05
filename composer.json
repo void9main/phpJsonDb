@@ -1,0 +1,20 @@
+{
+    "name": "void9main/php-json-db",
+    "description": "PHP USES native json as a simple database",
+    "type": "library",
+    "require": {
+        "php":">=7.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "void9main",
+            "email": "void9main@163.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "PhpJsonDb\\JsonDb\\":"src/PhpJsonDb/JsonDb"
+        }
+    }
+}
